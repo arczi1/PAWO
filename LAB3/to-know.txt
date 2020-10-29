@@ -1,0 +1,22 @@
+POLECENIA POWŁOKI: 
+
+cd  - zmiana bieżącego katalogu powłoki
+pwd - wypisanie nazwy bieżącego katalogu roboczego
+cat - połączenie plików wysłane na standardowe wyjście lub czytane jest standardowe wyjście
+mkdir - utowrzenie katalogu, jeżeli jeszcze nie istnieje
+touch - uaktualneinie ostatniego odczytu albo modyfikacji każdego pliku lub katalogu lub                    tworzenie      pustego pliku
+
+ls - wypisanie plików 
+rm - kasowanie plików
+mv - przeniesienie jednego lub wielu źródeł do katalogu
+ps - wyświetlenie informacji o uruchomionych procesach nieinteraktywnie
+top - wyświetlenie informacji o uruchomionych procesach z użytkownikiem interaktywnie
+history - wyświetla historie poleceń 
+source - wykonanie poleceń z pliku w bieżącej powłoce
+export - eksportuje automatycznie do środowiska pózniej wykonywanych poleceń
+tail - wypianie 10 ostatnich linii każdego pliku na standardowym wyjściu 
+head - wypianie 10 pierwszych linii każdego pliku na standardowym wyjściu
+grep - narzędzie do wyszukiwania
+sed - program do edycji danych wejściowych bez ich modyfikacji (zmiany są na stumieniu wyjściowym)
+fg - umieszczenie zadania na pierwszym planie i uczynienie go bieżącym 
+
