@@ -1,3 +1,5 @@
+https://devhints.io/bash?fbclid=IwAR08hlFZTWZaczZ11yMcZX764oVA6261Y0VFjBWnqRERXzn91Ly7Qyb-Fnc
+
 POLECENIA POWŁOKI: 
 
 cd  - zmiana bieżącego katalogu powłoki
