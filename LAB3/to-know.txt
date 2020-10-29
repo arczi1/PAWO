@@ -20,3 +20,22 @@ grep - narzędzie do wyszukiwania
 sed - program do edycji danych wejściowych bez ich modyfikacji (zmiany są na stumieniu wyjściowym)
 fg - umieszczenie zadania na pierwszym planie i uczynienie go bieżącym 
 
+
+SKRÓTY KLAWISZOWE 
+
+ctrl + C -- przerwanie/zabicie programu
+ctrl + Z -- zatrzymanie programu
+ctrl + L -- wyczyszczenie ekranu
+ctrl + D -- usuwa literę przed kursorem
+esc+
+
+ZMIENNE ŚRODOWISKOWE
+
+$HOME - ścieżka do katalogu domowego
+$SHELL - pełna ścieżka dostępu do bieżącej powłoki
+$PATH - ścieżki do katalogów w których szukane są programy wywoływane z konsoli
+$RANDOM - losuje liczbę 
+$PWD - nazwa bieżącego katalogu
+$OLDPWD - zmienna przetrzymująca ścieżę do poprzedniego katalogu
+$PS1 - zawiera sekwencję znaną jaką znak zachęty
+
