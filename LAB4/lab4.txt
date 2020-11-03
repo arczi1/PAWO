@@ -1,0 +1,26 @@
+1.
+
+#!/bin/bash
+VAR${0}
+echo $VAR
+REMOVE_x=${VAR/x/y}
+echo
+REMOVE_a=${
+
+2. 
+
+#!/bin/bash
+
+for file in $(find ${1} -maxdepth 1 -mindepth 1 -type f -exec basename {} \; ); do 
+    mv $1$file ${file,,}
+done
+
+#!/bin/bash 
+
+find ${1} -maxdepth 1 -mindepth 1 -type f -exec basename {} \; | while read file; do 
+    mv "$1$file" $1${file,,}"
+done 
+
+3. 
+
+
