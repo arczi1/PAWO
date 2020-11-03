@@ -9,6 +9,31 @@ REMOVE_a=${
 
 2. 
 
+#!/usr/bin/env bash
+rm -rf testowy
+mkdir testowy
+cd testowy
+touch -- -ABc
+touch -- ABc--
+touch -- -ABc
+touch -- --ABcA
+touch -- ABCc
+touch -- 'AS asd'
+mkdir dir_1
+mkdir dir_2
+touch -- dir_1/-ABc
+touch -- dir_1/ABc--
+touch -- dir_1/-ABc
+touch -- dir_1/--ABcA
+touch -- dir_1/ABCc
+touch -- dir_1/'AS asd'
+touch -- dir_2/-ABc
+touch -- dir_2/ABc--
+touch -- dir_2/-ABc
+touch -- dir_2/--ABcA
+touch -- dir_2/ABCc
+touch -- dir_2/'AS asd'
+
 #!/bin/bash
 
 for file in $(find ${1} -maxdepth 1 -mindepth 1 -type f -exec basename {} \; ); do 
