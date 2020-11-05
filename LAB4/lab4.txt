@@ -1,11 +1,11 @@
 1.
 
 #!/bin/bash
-VAR${0}
+VAR${0} # var=$@ lub var=$1 i wszystko w "" lub var=$* ale on sklei po zajeciach gosciu wysle
 echo $VAR
 REMOVE_x=${VAR/x/y}
 echo
-REMOVE_a=${
+REMOVE_a=${ 
 
 2. 
 
@@ -47,5 +47,30 @@ find ${1} -maxdepth 1 -mindepth 1 -type f -exec basename {} \; | while read file
 done 
 
 3. 
+find ${1} -maxdepth 1 -mindepth 1 -type f -exec basename {} \; | while read file; do 
+    mv "$1$file" $1${file,,}"
+done 
+
+--tr ['a-z'] ['A-Z'] <<< "HeLlo" 
+tr a-zA-Z A-Za-z 
+
+4. 
+sudo ls -l fd | wc -l 
+cat /proc/1/status | grep -i name 
+cat /proc/1/status | grep -iw pid
+cat /proc/1/status | grep -i state
+
+cat /proc/1/status | grep -i "^name|^pid\|state" 
+
+
+for $(find /proc -mindepth 1 -maxdepth 1 -type d -name "*[0-9]*"); do 
+    cat ${file}/status | grep -i "^name|^pid\|state" | tr " \n  " " "
+    echo " "
+done 
+
+
+
+
+
 
 
