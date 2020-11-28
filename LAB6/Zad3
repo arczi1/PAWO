@@ -1,0 +1,21 @@
+# danie 3 / Wrapper
+#  Zdefiniuj klasę, posiadającą atrybut `s` oraz metody `get`
+# oraz `show`.
+#  - Metoda `get` wczytuje dane i przypisuje do `s`.
+#  - Metoda `show` wyświetla `s` (ale z literami
+# zamienionymi na wielkie).
+#  Sprawdź, czy działa poprawnie
+
+class Klasa:
+  strk = ''
+  def get():
+    strk = input("Dane: ")
+    print("Dane wczytane")
+    print(strk)
+
+  def show():
+    print(strk)
+    
+  get()
+  show()
+  
