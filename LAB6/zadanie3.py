@@ -7,15 +7,15 @@
 #  Sprawdź, czy działa poprawnie
 
 class Klasa:
-  strk = ''
-  def get():
-    strk = input("Dane: ")
-    print("Dane wczytane")
-    print(strk)
-
-  def show():
-    print(strk)
-    
-  get()
-  show()
   
+  def get(self):
+    self.strk = input("Dane: ")
+    print("Dane wczytane")
+
+  def show(self):
+    print(self.strk)
+  
+klasa = Klasa()
+klasa.get()
+klasa.show()
+
