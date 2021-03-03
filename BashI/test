@@ -1,0 +1,4 @@
+host 10.104.34.201
+   HostName lab21-08.technopolis.iiar.pwr.edu.pl                                                                                          
+   ProxyCommand ssh -At s241135@lak.iiar.pwr.wroc.pl -W %h:%p
+   User s241135
